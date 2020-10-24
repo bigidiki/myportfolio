@@ -1,7 +1,12 @@
+@font-face {
+    font-family: 'Poppins-Light';
+    src: url('fonts/Poppins-Light.ttf');
+
+}
 body{
     margin: 0px;
     padding: 0px;
-    font-family: poppsion;
+    font-family: poppins;
     
 }
 *{
@@ -60,4 +65,18 @@ nav ul li a:hover{
     color: #ffffff;
     box-shadow: 5px 10px 30px rgb(64,198,196,0.3);
     transition: all ease 0.2s;
+}
+.model img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.model{
+    width: 500px;
+    height: 500px;
+}
+.content{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
 }
